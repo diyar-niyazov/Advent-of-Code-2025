@@ -58,7 +58,6 @@
 
 // Your puzzle answer was 980.
 
-
 import java.io.File;
 import java.util.Scanner;
 
@@ -78,10 +77,10 @@ public class Day1 {
             if (position > 99) {
                 position %= 100;
             }
-            while(position < 0) {
+            while (position < 0) {
                 position += 100;
             }
-            if(position == 0) {
+            if (position == 0) {
                 zeroCount++;
             }
             System.out.println("POSITION: " + position);
