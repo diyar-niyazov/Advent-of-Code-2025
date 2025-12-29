@@ -62,4 +62,3 @@ public class Day2 {
         System.out.println("SUM OF INVALID IDS:" + invalidSum);
     }
 }
-
